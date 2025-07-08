@@ -21,7 +21,7 @@ nav ul{
     justify-content: flex-start;
     list-style-type: none;
     gap: 20px;
-    height: 80px;
+    height: 60px;
 }
 nav ul li{
     color: white;
@@ -35,4 +35,33 @@ nav ul li{
 .brand{
     display: flex;
     align-items: center;
+}
+.container{
+    min-width: 70vh;
+}
+
+.bottom{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(27, 19, 19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    z-index: 100;
+}
+
+#myprogressBar{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    color: white;
+    margin-top: 10px;
 }
