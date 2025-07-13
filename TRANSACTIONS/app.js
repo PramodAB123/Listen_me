@@ -53,7 +53,6 @@ function createTransactionElement(transaction) {
   li.classList.add("transaction");
   li.classList.add(transaction.amount > 0 ? "income" : "expense");
 
-  // Use event delegation instead of inline onclick
   const descriptionSpan = document.createElement("span");
   descriptionSpan.textContent = transaction.description;
 
